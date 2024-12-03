@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forside</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Spil</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,9 +25,42 @@
         </nav>
     </header>
     <main>
+        <div id="screen">
+            <div id="game">
+                <div id="game_background"></div>
+                <div id="game_elements">
 
+                    <div class="good_sprite"></div>
+                    <div class="bad_sprite"></div>
+
+                    <div class="good_sprite"></div>
+                    <div class="bad_sprite"></div>
+
+
+
+                </div>
+                <div id="game_foreground"></div>
+                <div id="game_ui">
+                    <div id="score_board">
+                        <div id="points"></div>
+                    </div>
+                    <div id="life_board">
+                        <div id="liv"></div>
+                    </div>
+                    <div id="time_board">
+                        <div id="time_container">
+                            <div id="time_sprite"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="start"></div>
+            <div id="game_over"></div>
+            <div id="level_complete"></div>
+        </div>
     </main>
-    <footer>Lavet af: Gullan og Mikkel</footer>
+    <footer>Lavet af: Gullan og Mikkel.</footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
